@@ -9,4 +9,4 @@ st.set_page_config(
 with open("programme_PDN_site.html", "r", encoding="utf-8") as f:
     html = f.read()
 
-st.components.v1.html(html, height=6000, scrolling=True)
+st.components.v1.html(html, height=12000, scrolling=True)
